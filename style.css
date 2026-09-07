@@ -1,0 +1,55 @@
+/* ===== FONTS ===== */
+/* Berlaku di SEMUA halaman (index, about, contact) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap');
+
+/* ===== BASE ===== */
+/* Font utama untuk seluruh teks di SEMUA halaman */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Font khusus untuk judul (h1, h2, h3) di SEMUA halaman */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+/* Efek transisi warna saat link navbar di-hover — SEMUA halaman */
+nav a {
+  transition: color 0.2s;
+}
+
+/* ===== CARD HOVER ===== */
+/* Kartu "Minat & Bidang" di halaman HOME (index.html) */
+.card {
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15); /* bayangan biru saat hover */
+}
+
+/* ===== SOCIAL CARD HOVER ===== */
+/* Kartu Instagram & GitHub di halaman CONTACT (contact.html) */
+.social-card {
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.social-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* bayangan gelap saat hover */
+  transform: translateY(-2px);               /* naik sedikit saat hover */
+}
+
+/* ===== INSTAGRAM ICON ===== */
+/* Background gradient warna Instagram — kartu Instagram di CONTACT (contact.html) */
+.ig-icon {
+  background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+/* ===== VIDEO ===== */
+/* Video di halaman ABOUT (about.html) */
+video {
+  border-radius: 12px;  /* sudut melengkung */
+  max-width: 25%;       /* ukuran 1/4 dari lebar container */
+  display: block;
+  margin: 0 auto;       /* ditengahkan */
+}
+/* Begitulah kira-kira, mau lanjut tidur hehe
